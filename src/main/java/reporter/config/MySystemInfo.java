@@ -9,8 +9,8 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * @Auther: jx
- * @Date: 2018/6/7 10:54
+ * @Auther: mazhaoyang
+ * @Date: 2020/9/22 20:26
  * @Description:
  */
 public class MySystemInfo implements SystemInfo {

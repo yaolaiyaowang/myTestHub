@@ -6,8 +6,9 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 /**
- * @Auther: jx
- * @Date: 2018/7/13 17:44
+ **
+ * @Auther: mazhaoyang
+ * @Date: 2020/9/22 20:26
  * @Description: 豆瓣查询电影分类接口
  */
 public interface ISearch {

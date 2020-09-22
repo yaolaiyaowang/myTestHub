@@ -19,6 +19,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @Auther: mazhaoyang
+ * @Date: 2020/9/22 20:26
+ */
 public class MyExtentTestNgFormatter extends ExtentTestNgFormatter {
     private static final String REPORTER_ATTR = "extentTestNgReporter";
     private static final String SUITE_ATTR = "extentTestNgSuite";

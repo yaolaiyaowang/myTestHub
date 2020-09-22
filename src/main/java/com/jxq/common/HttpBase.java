@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @Auther: mazhaoyang
- * @Date: 2020/9/22 19:45
+ * @Date: 2020/9/22 20:26
  * @Description: Http基础使用类。
  */
 public class HttpBase {

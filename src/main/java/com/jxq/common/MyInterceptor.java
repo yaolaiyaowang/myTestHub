@@ -12,9 +12,9 @@ import java.io.IOException;
  * 自定义拦截器--超时拦截器
  * 验证响应时间超过100毫秒，则警告。
  * 也可以自定义添加拦截器
- *
- * @author jx
- * @Date: 2018/7/20 09:44
+**
+ * @Auther: mazhaoyang
+ * @Date: 2020/9/22 20:26
  */
 public class MyInterceptor implements Interceptor {
 

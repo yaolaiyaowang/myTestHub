@@ -11,8 +11,8 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Type;
 
 /**
- * @Auther: jx
- * @Date: 2018/7/17 17:29
+ * @Auther: mazhaoyang
+ * @Date: 2020/9/22 20:26
  * @Description:
  */
 public class RespVoConverterFactory extends Converter.Factory {

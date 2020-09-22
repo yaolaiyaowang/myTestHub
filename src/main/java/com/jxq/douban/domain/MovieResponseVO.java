@@ -3,8 +3,8 @@ package com.jxq.douban.domain;
 import java.util.List;
 
 /**
- * @Auther: jx
- * @Date: 2018/7/13 18:01
+ * @Auther: mazhaoyang
+ * @Date: 2020/9/22 20:26
  * @Description:
  */
 public class MovieResponseVO {

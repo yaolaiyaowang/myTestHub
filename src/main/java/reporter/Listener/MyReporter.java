@@ -3,8 +3,9 @@ package reporter.Listener;
 import com.aventstack.extentreports.ExtentTest;
 
 /**
- * @Auther: jx
- * @Date: 2018/6/27 17:18
+ **
+ * @Auther: mazhaoyang
+ * @Date: 2020/9/22 20:26
  * @Description:
  */
 public class MyReporter {
