@@ -9,8 +9,8 @@ import retrofit2.Response;
 import java.io.IOException;
 
 /**
- * @Auther: jx
- * @Date: 2018/7/13 17:47
+ * @Auther: ma
+ * @Date: 2020/09/22 17:35
  * @Description:
  */
 public class HttpSearch extends HttpBase {
