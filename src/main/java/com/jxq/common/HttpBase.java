@@ -11,8 +11,8 @@ import retrofit2.Retrofit;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Auther: jx
- * @Date: 2018/7/13 17:47
+ * @Auther: mazhaoyang
+ * @Date: 2020/9/22 19:45
  * @Description: Http基础使用类。
  */
 public class HttpBase {
