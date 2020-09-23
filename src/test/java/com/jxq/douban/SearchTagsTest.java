@@ -3,6 +3,7 @@ package com.jxq.douban;
 import com.alibaba.fastjson.JSONObject;
 import com.jxq.douban.domain.MovieResponseVO;
 import com.jxq.tools.JsonSchemaUtils;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
