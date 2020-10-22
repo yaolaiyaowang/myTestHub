@@ -1,8 +1,9 @@
 package com.jxq.douban;
 
 import com.alibaba.fastjson.JSONObject;
-import com.jxq.douban.domain.MovieResponseVO;
-import com.jxq.tools.JsonSchemaUtils;
+import com.mazy.douban.domain.MovieResponseVO;
+import com.mazy.interf.HttpSearch;
+import com.mazy.tools.JsonSchemaUtils;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
@@ -14,7 +15,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * @Auther: jx
+ * @Auther: 马朝阳
  * @Date: 2018/7/5 10:48
  * @Description: 豆瓣首页接口测试
  */
@@ -44,9 +45,9 @@ public class SearchTagsTest {
         Response<MovieResponseVO> response = implSearch.searchTags(type, source);
         MovieResponseVO body = response.body();
         Assert.assertNotNull(body, "response.body()");
-//        响应返回内容想通过schema标准校验
+//        响应返回内容通过schema标准校验
         JsonSchemaUtils.assertResponseJsonSchema(SCHEMA_PATH, JSONObject.toJSONString(body));
-//        再Json化成对象
+//        将Json化成对象
         Assert.assertNotNull(body.getTags(), "tags");
     }
 

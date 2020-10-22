@@ -1,7 +1,8 @@
-package com.jxq.tools;
+package com.mazy.tools;
 
 import com.alibaba.fastjson.JSONObject;
-import com.jxq.douban.domain.MovieResponseVO;
+import com.mazy.douban.domain.MovieResponseVO;
+
 import okhttp3.ResponseBody;
 import retrofit2.Converter;
 import retrofit2.Retrofit;

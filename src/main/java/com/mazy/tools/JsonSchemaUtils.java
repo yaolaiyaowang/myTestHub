@@ -1,4 +1,4 @@
-package com.jxq.tools;
+package com.mazy.tools;
 
 
 import com.fasterxml.jackson.databind.JsonNode;
@@ -57,6 +57,8 @@ public class JsonSchemaUtils {
                 Reporter.log(aReport.getMessage(), true);
             }
         }
+        Reporter.log("接口返回的Json对象校验成功！", true);
+        
         Assert.assertTrue(report.isSuccess());
     }
 
@@ -72,5 +74,6 @@ public class JsonSchemaUtils {
         JsonNode jsonSchema = readJSONfile(schemaPath);
         JsonNode responseJN = readJSONStr(response);
         assertJsonSchema(jsonSchema, responseJN);
+        Reporter.log(response, true);
     }
 }

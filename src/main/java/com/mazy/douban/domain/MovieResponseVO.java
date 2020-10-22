@@ -1,4 +1,4 @@
-package com.jxq.douban.domain;
+package com.mazy.douban.domain;
 
 import java.util.List;
 

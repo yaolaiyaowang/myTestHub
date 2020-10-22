@@ -1,6 +1,7 @@
-package com.jxq.douban;
+package com.mazy.interf;
 
-import com.jxq.douban.domain.MovieResponseVO;
+import com.mazy.douban.domain.MovieResponseVO;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;

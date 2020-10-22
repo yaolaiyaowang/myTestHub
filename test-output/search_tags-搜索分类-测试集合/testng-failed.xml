@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [search_tags-搜索分类-测试集合]">
+  <parameter name="system.info" value="reporter.config.MySystemInfo"/>
+  <parameter name="report.config" value="src/main/resources/config/report/extent-config.xml"/>
+  <listeners>
+    <listener class-name="reporter.Listener.MyExtentTestNgFormatter"/>
+  </listeners>
+  <test thread-count="5" name="搜索分类 接口(failed)">
+    <classes>
+      <class name="com.jxq.douban.SearchTagsTest">
+        <methods>
+          <include name="testcase2"/>
+          <include name="beforeSuite"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- com.jxq.douban.SearchTagsTest -->
+    </classes>
+  </test> <!-- 搜索分类 接口(failed) -->
+</suite> <!-- Failed suite [search_tags-搜索分类-测试集合] -->

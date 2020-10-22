@@ -1,11 +1,13 @@
-package com.jxq.common;
+package com.mazy.common;
 
-import com.jxq.tools.RespVoConverterFactory;
 import okhttp3.Interceptor;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import org.testng.Reporter;
+
+import com.mazy.tools.RespVoConverterFactory;
+
 import retrofit2.Retrofit;
 
 import java.util.concurrent.TimeUnit;

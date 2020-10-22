@@ -11,6 +11,7 @@
     </test>
 
     <listeners>
+    
         <listener class-name="reporter.Listener.MyExtentTestNgFormatter"/>
     </listeners>
 </suite>

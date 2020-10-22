@@ -1,8 +1,9 @@
-package com.jxq.douban;
+package com.mazy.interf;
 
-import com.jxq.common.HttpBase;
-import com.jxq.douban.ISearch;
-import com.jxq.douban.domain.MovieResponseVO;
+import com.mazy.common.HttpBase;
+import com.mazy.douban.domain.MovieResponseVO;
+import com.mazy.interf.ISearch;
+
 import retrofit2.Call;
 import retrofit2.Response;
 
