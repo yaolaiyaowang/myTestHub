@@ -1,7 +1,7 @@
 package com.mazy.tools;
 
 import com.alibaba.fastjson.JSONObject;
-import com.mazy.douban.domain.MovieResponseVO;
+import com.mazy.response.domain.MovieResponseVO;
 
 import okhttp3.ResponseBody;
 import retrofit2.Converter;

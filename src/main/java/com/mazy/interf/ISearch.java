@@ -1,6 +1,7 @@
 package com.mazy.interf;
 
-import com.mazy.douban.domain.MovieResponseVO;
+import com.mazy.response.domain.IKongJianVO;
+import com.mazy.response.domain.MovieResponseVO;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -15,4 +16,7 @@ import retrofit2.http.Query;
 public interface ISearch {
     @GET("j/search_tags")
     Call<MovieResponseVO> searchTags(@Query("type") String type, @Query("source") String source);
+    
+    @GET("monitor")
+	 Call<IKongJianVO> getStatus();
 }

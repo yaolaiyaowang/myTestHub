@@ -1,9 +1,11 @@
 package com.mazy.interf;
 
 import com.mazy.common.HttpBase;
-import com.mazy.douban.domain.MovieResponseVO;
 import com.mazy.interf.ISearch;
+import com.mazy.response.domain.IKongJianVO;
+import com.mazy.response.domain.MovieResponseVO;
 
+import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Response;
 
@@ -26,6 +28,11 @@ public class HttpSearch extends HttpBase {
 
     public Response<MovieResponseVO> searchTags(String type, String source) throws IOException {
         Call<MovieResponseVO> call = iSearch.searchTags(type, source);
+        return call.execute();
+    }
+    
+    public Response<IKongJianVO> getStues() throws IOException {
+        Call<IKongJianVO> call = iSearch.getStatus();
         return call.execute();
     }
 

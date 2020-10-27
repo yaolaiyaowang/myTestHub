@@ -1,8 +1,9 @@
-package com.mazy.douban.domain;
+package com.mazy.response.domain;
 
 import java.util.List;
 
 /**
+ * 根据豆瓣接口返回的body设置的MOV
  * @Auther: mazhaoyang
  * @Date: 2020/9/22 20:26
  * @Description:

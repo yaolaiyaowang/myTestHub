@@ -6,9 +6,11 @@ import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import org.testng.Reporter;
 
+import com.google.gson.Gson;
 import com.mazy.tools.RespVoConverterFactory;
 
 import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 import java.util.concurrent.TimeUnit;
 
@@ -51,6 +53,8 @@ public class HttpBase {
     /**
      * 初始化方法
      *
+     *自定义转换方式：  RespVoConverterFactory.create()
+     *
      * @param host        访问域名host
      * @param interceptor 自定义拦截器
      */
@@ -59,7 +63,7 @@ public class HttpBase {
         retrofit = new Retrofit.Builder()
                 .baseUrl(host)
                 .client(client.build())
-                .addConverterFactory(RespVoConverterFactory.create())
+                .addConverterFactory(GsonConverterFactory.create(new Gson()))
                 .build();
     }
 

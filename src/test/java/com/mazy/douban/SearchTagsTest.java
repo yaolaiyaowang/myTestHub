@@ -1,9 +1,12 @@
-package com.jxq.douban;
+package com.mazy.douban;
 
 import com.alibaba.fastjson.JSONObject;
-import com.mazy.douban.domain.MovieResponseVO;
 import com.mazy.interf.HttpSearch;
+import com.mazy.response.domain.IKongJianVO;
+import com.mazy.response.domain.MovieResponseVO;
 import com.mazy.tools.JsonSchemaUtils;
+
+import okhttp3.ResponseBody;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
@@ -22,7 +25,10 @@ import java.util.Properties;
 public class SearchTagsTest {
     private static Properties properties;
     private static HttpSearch implSearch;
+    private static HttpSearch ikongjianplSearch;
     private static String SCHEMA_PATH = "parameters/search/schema/SearchTagsMovie.json";
+    
+    private static String SCHEMA_PATH_IKONGJIAN = "parameters/search/schema/IkongjianResp.json";
 
     @BeforeSuite
     public void beforeSuite() throws IOException {
@@ -35,6 +41,9 @@ public class SearchTagsTest {
         properties.load(stream);
         stream = this.getClass().getClassLoader().getResourceAsStream("");
         stream.close();
+        
+        host = properties.getProperty("ikongjian.host");
+        ikongjianplSearch = new HttpSearch(host);
     }
 
     @Test(description = "电影首页。类别:type=movie source=index")
@@ -60,5 +69,15 @@ public class SearchTagsTest {
         Assert.assertNotNull(body, "response.body()");
         JsonSchemaUtils.assertResponseJsonSchema(SCHEMA_PATH, JSONObject.toJSONString(body));
         Assert.assertNotNull(body.getTags(), "tags");
+    }
+    
+    @Test(description = "测试test7环境是否可用")
+    public void testcase3() throws IOException{
+    	Response<IKongJianVO> response = ikongjianplSearch.getStues();
+    	IKongJianVO IBody = response.body();
+    	System.out.println(response.body().getCode());
+    	Assert.assertNotNull(IBody, "response.body()");
+        JsonSchemaUtils.assertResponseJsonSchema(SCHEMA_PATH_IKONGJIAN, JSONObject.toJSONString(IBody));
+        Assert.assertNotNull(IBody.getMsg(), "msg");
     }
 }
