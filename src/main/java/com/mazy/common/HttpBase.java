@@ -24,7 +24,7 @@ public class HttpBase {
      * 构造方法（1个参数）
      * 只传Host
      * 可以加入自定义拦截器 -超时判断
-     * 或者，默认没有使用拦截器。
+     * 默认使用日志拦截器。
      *
      * @param host 访问域名host
      */
