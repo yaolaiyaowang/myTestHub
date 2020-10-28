@@ -5,13 +5,9 @@ import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import org.testng.Reporter;
-
 import com.google.gson.Gson;
-import com.mazy.tools.RespVoConverterFactory;
-
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-
 import java.util.concurrent.TimeUnit;
 
 /**

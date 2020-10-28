@@ -14,7 +14,7 @@ import java.lang.reflect.Type;
 /**
  * @Auther: mazhaoyang
  * @Date: 2020/9/22 20:26
- * @Description:
+ * @Description:  单独VO对象转换所使用的转换类别，可在HTTPbase中直接进行类型转换，若response设计多个VO，无需调用本类，测试用例中直接进行转换即可
  */
 public class RespVoConverterFactory extends Converter.Factory {
     public static RespVoConverterFactory create() {

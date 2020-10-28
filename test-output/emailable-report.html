@@ -1,20 +1,78 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<title>TestNG Report</title>
-<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+    <meta charset="UTF-8">
+    <title>Emailable Report</title>
 </head>
 <body>
-<table>
-<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">1,018</td><td></td><td></td></tr>
+<h1>Emailable Report</h1>
+
+<p>
+    <em>System Configuration</em><br />
+        <strong>environment</strong>: Debug,
+        <strong>测试人员</strong>: mazy</p>
+
+<table width="100%" border="1" cellspacing="2" cellpadding="10" style="border-collapse: collapse; display: table;">
+    <tbody>
+        <tr>
+          <th>Test Method</th>
+          <th>Status</th>
+          <th>Start Time</th>
+          <th>Duration</th>
+        </tr>
+
+              <tr>
+                <th colspan="4">Test Name: <em>搜索分类 接口</em> (Suite: <em>调试-搜索分类-测试集合</em>)</th>
+              </tr>
+
+                  <tr bgcolor=#8CA93E>
+                    <td>
+                        <font color="white"><em>testcase1</em></font>
+                    </td>
+                    <td>
+                        <font color="white">PASS</font>
+                    </td>
+                    <td>
+                        <font color="white">Oct 27, 2020 3:21:35 PM</font>
+                    </td>
+                    <td>
+                        <font color="white">0h 0m 0s+654ms</font>
+                    </td>
+                  </tr>
+                  <tr bgcolor=#8CA93E>
+                    <td>
+                        <font color="white"><em>testcase2</em></font>
+                    </td>
+                    <td>
+                        <font color="white">PASS</font>
+                    </td>
+                    <td>
+                        <font color="white">Oct 27, 2020 3:21:36 PM</font>
+                    </td>
+                    <td>
+                        <font color="white">0h 0m 0s+27ms</font>
+                    </td>
+                  </tr>
+                  <tr bgcolor=#8CA93E>
+                    <td>
+                        <font color="white"><em>testcase3</em></font>
+                    </td>
+                    <td>
+                        <font color="white">PASS</font>
+                    </td>
+                    <td>
+                        <font color="white">Oct 27, 2020 3:21:36 PM</font>
+                    </td>
+                    <td>
+                        <font color="white">0h 0m 0s+84ms</font>
+                    </td>
+                  </tr>
+    </tbody>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.mazy.douban.SearchTagsTest</td><td><a href="#m0">testcase1</a></td><td rowspan="1">1603761859639</td><td rowspan="1">865</td></tr><tr class="passedeven"><td><a href="#m1">testcase2</a></td><td rowspan="1">1603761860506</td><td rowspan="1">66</td></tr><tr class="passedeven"><td><a href="#m2">testcase3</a></td><td rowspan="1">1603761860573</td><td rowspan="1">64</td></tr></tbody>
-</table>
-<h2>Default test</h2><h3 id="m0">com.mazy.douban.SearchTagsTest#testcase1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=movie&source=index<br/>RetrofitLog--> --> END GET<br/>RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (167ms)<br/>RetrofitLog--> Date: Tue, 27 Oct 2020 01:24:18 GMT<br/>RetrofitLog--> Content-Type: application/json; charset=utf-8<br/>RetrofitLog--> Transfer-Encoding: chunked<br/>RetrofitLog--> Connection: keep-alive<br/>RetrofitLog--> Keep-Alive: timeout=30<br/>RetrofitLog--> X-Xss-Protection: 1; mode=block<br/>RetrofitLog--> X-Douban-Mobileapp: 0<br/>RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT<br/>RetrofitLog--> Pragma: no-cache<br/>RetrofitLog--> Cache-Control: must-revalidate, no-cache, private<br/>RetrofitLog--> Set-Cookie: bid=RUsQ5juLcG4; Expires=Wed, 27-Oct-21 01:24:18 GMT; Domain=.douban.com; Path=/<br/>RetrofitLog--> X-DOUBAN-NEWBID: RUsQ5juLcG4<br/>RetrofitLog--> X-DAE-App: movie<br/>RetrofitLog--> X-DAE-Instance: default<br/>RetrofitLog--> Server: dae<br/>RetrofitLog--> X-Content-Type-Options: nosniff<br/>RetrofitLog--> <br/>RetrofitLog--> {"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}<br/>RetrofitLog--> <-- END HTTP (94-byte body)<br/>接口返回的Json对象校验成功！<br/>{"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.mazy.douban.SearchTagsTest#testcase2</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=tv&source=index<br/>RetrofitLog--> --> END GET<br/>RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (57ms)<br/>RetrofitLog--> Date: Tue, 27 Oct 2020 01:24:19 GMT<br/>RetrofitLog--> Content-Type: application/json; charset=utf-8<br/>RetrofitLog--> Transfer-Encoding: chunked<br/>RetrofitLog--> Connection: keep-alive<br/>RetrofitLog--> Keep-Alive: timeout=30<br/>RetrofitLog--> X-Xss-Protection: 1; mode=block<br/>RetrofitLog--> X-Douban-Mobileapp: 0<br/>RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT<br/>RetrofitLog--> Pragma: no-cache<br/>RetrofitLog--> Cache-Control: must-revalidate, no-cache, private<br/>RetrofitLog--> Set-Cookie: bid=gMc45g6ywXs; Expires=Wed, 27-Oct-21 01:24:19 GMT; Domain=.douban.com; Path=/<br/>RetrofitLog--> X-DOUBAN-NEWBID: gMc45g6ywXs<br/>RetrofitLog--> X-DAE-App: movie<br/>RetrofitLog--> X-DAE-Instance: default<br/>RetrofitLog--> Server: dae<br/>RetrofitLog--> X-Content-Type-Options: nosniff<br/>RetrofitLog--> <br/>RetrofitLog--> {"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}<br/>RetrofitLog--> <-- END HTTP (94-byte body)<br/>接口返回的Json对象校验成功！<br/>{"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.mazy.douban.SearchTagsTest#testcase3</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">RetrofitLog--> --> GET http://design.test7.ikongjian.com/monitor<br/>RetrofitLog--> --> END GET<br/>RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (53ms)<br/>RetrofitLog--> Server: nginx/1.16.1<br/>RetrofitLog--> Date: Tue, 27 Oct 2020 01:24:19 GMT<br/>RetrofitLog--> Content-Type: application/json<br/>RetrofitLog--> Transfer-Encoding: chunked<br/>RetrofitLog--> Connection: keep-alive<br/>RetrofitLog--> Set-Cookie: jsid=b2567a0f-1c40-4676-824b-8cff5e4597b1; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Thu, 26-Nov-2020 01:24:19 GMT; HttpOnly<br/>RetrofitLog--> <br/>RetrofitLog--> {"code":0,"msg":"系统正常","result":null}<br/>RetrofitLog--> <-- END HTTP (45-byte body)<br/>接口返回的Json对象校验成功！<br/>{"code":0,"msg":"系统正常"}</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+
+<p style="color: gray; font-size: 10px; text-align: right;">
+    Reports by <a href="http://vimalselvam.com">vimalselvam.com</a>
+</p>
 </body>
 </html>

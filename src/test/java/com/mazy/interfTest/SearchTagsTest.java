@@ -1,4 +1,4 @@
-package com.mazy.douban;
+package com.mazy.interfTest;
 
 import com.alibaba.fastjson.JSONObject;
 import com.mazy.interf.HttpSearch;

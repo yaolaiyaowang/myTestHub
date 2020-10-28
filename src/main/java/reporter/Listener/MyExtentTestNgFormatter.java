@@ -128,8 +128,8 @@ public class MyExtentTestNgFormatter extends ExtentTestNgFormatter {
     }
 
     public void onFinish(ISuite iSuite) {
+    
     }
-
 
     public void onTestStart(ITestResult iTestResult) {
         MyReporter.setTestName(iTestResult.getName());
@@ -155,7 +155,7 @@ public class MyExtentTestNgFormatter extends ExtentTestNgFormatter {
         ISuite iSuite = iTestContext.getSuite();
         ExtentTest suite = (ExtentTest) iSuite.getAttribute(SUITE_ATTR);
         ExtentTest testContext = suite.createNode(iTestContext.getName());
-//        自定义报告
+//自定义报告
         MyReporter.report = testContext;
         iTestContext.setAttribute("testContext", testContext);
     }

@@ -8,10 +8,10 @@
       <![CDATA[RetrofitLog--> --> END GET]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (167ms)]]>
+      <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (163ms)]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Date: Tue, 27 Oct 2020 01:24:18 GMT]]>
+      <![CDATA[RetrofitLog--> Date: Tue, 27 Oct 2020 07:21:34 GMT]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
@@ -41,10 +41,10 @@
       <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Set-Cookie: bid=RUsQ5juLcG4; Expires=Wed, 27-Oct-21 01:24:18 GMT; Domain=.douban.com; Path=/]]>
+      <![CDATA[RetrofitLog--> Set-Cookie: bid=r55zhmUs7NU; Expires=Wed, 27-Oct-21 07:21:34 GMT; Domain=.douban.com; Path=/]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: RUsQ5juLcG4]]>
+      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: r55zhmUs7NU]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
@@ -80,10 +80,10 @@
       <![CDATA[RetrofitLog--> --> END GET]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (57ms)]]>
+      <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (21ms)]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Date: Tue, 27 Oct 2020 01:24:19 GMT]]>
+      <![CDATA[RetrofitLog--> Date: Tue, 27 Oct 2020 07:21:34 GMT]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
@@ -113,10 +113,10 @@
       <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Set-Cookie: bid=gMc45g6ywXs; Expires=Wed, 27-Oct-21 01:24:19 GMT; Domain=.douban.com; Path=/]]>
+      <![CDATA[RetrofitLog--> Set-Cookie: bid=0b-JfQxklqE; Expires=Wed, 27-Oct-21 07:21:34 GMT; Domain=.douban.com; Path=/]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: gMc45g6ywXs]]>
+      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: 0b-JfQxklqE]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
@@ -152,13 +152,13 @@
       <![CDATA[RetrofitLog--> --> END GET]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (53ms)]]>
+      <![CDATA[RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (75ms)]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> Server: nginx/1.16.1]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Date: Tue, 27 Oct 2020 01:24:19 GMT]]>
+      <![CDATA[RetrofitLog--> Date: Tue, 27 Oct 2020 07:21:34 GMT]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> Content-Type: application/json]]>
@@ -170,7 +170,7 @@
       <![CDATA[RetrofitLog--> Connection: keep-alive]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Set-Cookie: jsid=b2567a0f-1c40-4676-824b-8cff5e4597b1; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Thu, 26-Nov-2020 01:24:19 GMT; HttpOnly]]>
+      <![CDATA[RetrofitLog--> Set-Cookie: jsid=d8838575-83b2-4f5d-9fdf-7a1839178b81; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Thu, 26-Nov-2020 07:21:34 GMT; HttpOnly]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> ]]>
@@ -188,16 +188,20 @@
       <![CDATA[{"code":0,"msg":"系统正常"}]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1018" started-at="2020-10-27T01:24:19Z" finished-at="2020-10-27T01:24:20Z">
+  <suite name="接口测试集合" duration-ms="0" started-at="2020-10-27T07:21:36Z" finished-at="2020-10-27T07:21:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1018" started-at="2020-10-27T01:24:19Z" finished-at="2020-10-27T01:24:20Z">
-      <class name="com.mazy.douban.SearchTagsTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.mazy.douban.SearchTagsTest@5025a98f]" name="beforeSuite" is-config="true" duration-ms="676" started-at="2020-10-27T01:24:18Z" finished-at="2020-10-27T01:24:19Z">
+  </suite> <!-- 接口测试集合 -->
+  <suite name="调试-搜索分类-测试集合" duration-ms="788" started-at="2020-10-27T07:21:35Z" finished-at="2020-10-27T07:21:36Z">
+    <groups>
+    </groups>
+    <test name="搜索分类 接口" duration-ms="788" started-at="2020-10-27T07:21:35Z" finished-at="2020-10-27T07:21:36Z">
+      <class name="com.mazy.interfTest.SearchTagsTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@6385cb26]" name="beforeSuite" is-config="true" duration-ms="422" started-at="2020-10-27T07:21:34Z" finished-at="2020-10-27T07:21:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="testcase1()[pri:0, instance:com.mazy.douban.SearchTagsTest@5025a98f]" name="testcase1" duration-ms="865" started-at="2020-10-27T01:24:19Z" description="电影首页。类别:type=movie source=index" finished-at="2020-10-27T01:24:20Z">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@6385cb26]" name="testcase1" duration-ms="650" started-at="2020-10-27T07:21:35Z" description="电影首页。类别:type=movie source=index" finished-at="2020-10-27T07:21:35Z">
           <reporter-output>
             <line>
               <![CDATA[RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=movie&source=index]]>
@@ -206,10 +210,10 @@
               <![CDATA[RetrofitLog--> --> END GET]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (167ms)]]>
+              <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (163ms)]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Date: Tue, 27 Oct 2020 01:24:18 GMT]]>
+              <![CDATA[RetrofitLog--> Date: Tue, 27 Oct 2020 07:21:34 GMT]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
@@ -239,10 +243,10 @@
               <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Set-Cookie: bid=RUsQ5juLcG4; Expires=Wed, 27-Oct-21 01:24:18 GMT; Domain=.douban.com; Path=/]]>
+              <![CDATA[RetrofitLog--> Set-Cookie: bid=r55zhmUs7NU; Expires=Wed, 27-Oct-21 07:21:34 GMT; Domain=.douban.com; Path=/]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: RUsQ5juLcG4]]>
+              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: r55zhmUs7NU]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
@@ -273,7 +277,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.mazy.douban.SearchTagsTest@5025a98f]" name="testcase2" duration-ms="66" started-at="2020-10-27T01:24:20Z" description="Tv首页。类别:type=tv source=index" finished-at="2020-10-27T01:24:20Z">
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@6385cb26]" name="testcase2" duration-ms="27" started-at="2020-10-27T07:21:36Z" description="Tv首页。类别:type=tv source=index" finished-at="2020-10-27T07:21:36Z">
           <reporter-output>
             <line>
               <![CDATA[RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=tv&source=index]]>
@@ -282,10 +286,10 @@
               <![CDATA[RetrofitLog--> --> END GET]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (57ms)]]>
+              <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (21ms)]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Date: Tue, 27 Oct 2020 01:24:19 GMT]]>
+              <![CDATA[RetrofitLog--> Date: Tue, 27 Oct 2020 07:21:34 GMT]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
@@ -315,10 +319,10 @@
               <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Set-Cookie: bid=gMc45g6ywXs; Expires=Wed, 27-Oct-21 01:24:19 GMT; Domain=.douban.com; Path=/]]>
+              <![CDATA[RetrofitLog--> Set-Cookie: bid=0b-JfQxklqE; Expires=Wed, 27-Oct-21 07:21:34 GMT; Domain=.douban.com; Path=/]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: gMc45g6ywXs]]>
+              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: 0b-JfQxklqE]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
@@ -349,7 +353,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testcase2 -->
-        <test-method status="PASS" signature="testcase3()[pri:0, instance:com.mazy.douban.SearchTagsTest@5025a98f]" name="testcase3" duration-ms="64" started-at="2020-10-27T01:24:20Z" description="测试test7环境是否可用" finished-at="2020-10-27T01:24:20Z">
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@6385cb26]" name="testcase3" duration-ms="84" started-at="2020-10-27T07:21:36Z" description="测试test7环境是否可用" finished-at="2020-10-27T07:21:36Z">
           <reporter-output>
             <line>
               <![CDATA[RetrofitLog--> --> GET http://design.test7.ikongjian.com/monitor]]>
@@ -358,13 +362,13 @@
               <![CDATA[RetrofitLog--> --> END GET]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (53ms)]]>
+              <![CDATA[RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (75ms)]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> Server: nginx/1.16.1]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Date: Tue, 27 Oct 2020 01:24:19 GMT]]>
+              <![CDATA[RetrofitLog--> Date: Tue, 27 Oct 2020 07:21:34 GMT]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> Content-Type: application/json]]>
@@ -376,7 +380,7 @@
               <![CDATA[RetrofitLog--> Connection: keep-alive]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Set-Cookie: jsid=b2567a0f-1c40-4676-824b-8cff5e4597b1; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Thu, 26-Nov-2020 01:24:19 GMT; HttpOnly]]>
+              <![CDATA[RetrofitLog--> Set-Cookie: jsid=d8838575-83b2-4f5d-9fdf-7a1839178b81; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Thu, 26-Nov-2020 07:21:34 GMT; HttpOnly]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> ]]>
@@ -395,7 +399,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testcase3 -->
-      </class> <!-- com.mazy.douban.SearchTagsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.mazy.interfTest.SearchTagsTest -->
+    </test> <!-- 搜索分类 接口 -->
+  </suite> <!-- 调试-搜索分类-测试集合 -->
 </testng-results>
