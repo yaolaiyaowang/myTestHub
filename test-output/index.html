@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\mazhaoyang\AppData\Local\Temp\testng-eclipse-748971172\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mazy.interfTest.SearchTagsTest" hash-for-method="testcase1">testcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mazy.interfTest.SearchTagsTest" hash-for-method="testcase2">testcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.mazy.interfTest.SearchTagsTest" hash-for-method="testcase3">testcase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mazy.interfTest.SearchTagsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase1">
+                  </a> <!-- testcase1 -->
+                  <span class="method-name">testcase1</span>
+                  <em>
+(电影首页。类别:type=movie source=index)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase2">
+                  </a> <!-- testcase2 -->
+                  <span class="method-name">testcase2</span>
+                  <em>
+(Tv首页。类别:type=tv source=index)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase3">
+                  </a> <!-- testcase3 -->
+                  <span class="method-name">testcase3</span>
+                  <em>
+(测试test7环境是否可用)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\mazhaoyang\AppData\Local\Temp\testng-eclipse-748971172\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.mazy.interfTest.SearchTagsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testcase1')
+data.setCell(0, 2, 'com.mazy.interfTest.SearchTagsTest')
+data.setCell(0, 3, 836);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testcase3')
+data.setCell(1, 2, 'com.mazy.interfTest.SearchTagsTest')
+data.setCell(1, 3, 221);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testcase2')
+data.setCell(2, 2, 'com.mazy.interfTest.SearchTagsTest')
+data.setCell(2, 3, 27);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=tv&source=index</span>
+                <span class="reporter-method-output">RetrofitLog--> --> END GET</span>
+                <span class="reporter-method-output">RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (21ms)</span>
+                <span class="reporter-method-output">RetrofitLog--> Date: Tue, 24 Nov 2020 04:04:47 GMT</span>
+                <span class="reporter-method-output">RetrofitLog--> Content-Type: application/json; charset=utf-8</span>
+                <span class="reporter-method-output">RetrofitLog--> Transfer-Encoding: chunked</span>
+                <span class="reporter-method-output">RetrofitLog--> Connection: keep-alive</span>
+                <span class="reporter-method-output">RetrofitLog--> Keep-Alive: timeout=30</span>
+                <span class="reporter-method-output">RetrofitLog--> X-Xss-Protection: 1; mode=block</span>
+                <span class="reporter-method-output">RetrofitLog--> X-Douban-Mobileapp: 0</span>
+                <span class="reporter-method-output">RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT</span>
+                <span class="reporter-method-output">RetrofitLog--> Pragma: no-cache</span>
+                <span class="reporter-method-output">RetrofitLog--> Cache-Control: must-revalidate, no-cache, private</span>
+                <span class="reporter-method-output">RetrofitLog--> Set-Cookie: bid=Gn74M7DtMps; Expires=Wed, 24-Nov-21 04:04:47 GMT; Domain=.douban.com; Path=/</span>
+                <span class="reporter-method-output">RetrofitLog--> X-DOUBAN-NEWBID: Gn74M7DtMps</span>
+                <span class="reporter-method-output">RetrofitLog--> X-DAE-App: movie</span>
+                <span class="reporter-method-output">RetrofitLog--> X-DAE-Instance: default</span>
+                <span class="reporter-method-output">RetrofitLog--> Server: dae</span>
+                <span class="reporter-method-output">RetrofitLog--> X-Content-Type-Options: nosniff</span>
+                <span class="reporter-method-output">RetrofitLog--> </span>
+                <span class="reporter-method-output">RetrofitLog--> {"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}</span>
+                <span class="reporter-method-output">RetrofitLog--> <-- END HTTP (94-byte body)</span>
+                <span class="reporter-method-output">接口返回的Json对象校验成功！</span>
+                <span class="reporter-method-output">{"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=movie&source=index</span>
+                <span class="reporter-method-output">RetrofitLog--> --> END GET</span>
+                <span class="reporter-method-output">RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (321ms)</span>
+                <span class="reporter-method-output">RetrofitLog--> Date: Tue, 24 Nov 2020 04:04:46 GMT</span>
+                <span class="reporter-method-output">RetrofitLog--> Content-Type: application/json; charset=utf-8</span>
+                <span class="reporter-method-output">RetrofitLog--> Transfer-Encoding: chunked</span>
+                <span class="reporter-method-output">RetrofitLog--> Connection: keep-alive</span>
+                <span class="reporter-method-output">RetrofitLog--> Keep-Alive: timeout=30</span>
+                <span class="reporter-method-output">RetrofitLog--> X-Xss-Protection: 1; mode=block</span>
+                <span class="reporter-method-output">RetrofitLog--> X-Douban-Mobileapp: 0</span>
+                <span class="reporter-method-output">RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT</span>
+                <span class="reporter-method-output">RetrofitLog--> Pragma: no-cache</span>
+                <span class="reporter-method-output">RetrofitLog--> Cache-Control: must-revalidate, no-cache, private</span>
+                <span class="reporter-method-output">RetrofitLog--> Set-Cookie: bid=edgaAEQrNb8; Expires=Wed, 24-Nov-21 04:04:46 GMT; Domain=.douban.com; Path=/</span>
+                <span class="reporter-method-output">RetrofitLog--> X-DOUBAN-NEWBID: edgaAEQrNb8</span>
+                <span class="reporter-method-output">RetrofitLog--> X-DAE-App: movie</span>
+                <span class="reporter-method-output">RetrofitLog--> X-DAE-Instance: default</span>
+                <span class="reporter-method-output">RetrofitLog--> Server: dae</span>
+                <span class="reporter-method-output">RetrofitLog--> X-Content-Type-Options: nosniff</span>
+                <span class="reporter-method-output">RetrofitLog--> </span>
+                <span class="reporter-method-output">RetrofitLog--> {"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}</span>
+                <span class="reporter-method-output">RetrofitLog--> <-- END HTTP (94-byte body)</span>
+                <span class="reporter-method-output">接口返回的Json对象校验成功！</span>
+                <span class="reporter-method-output">{"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testcase3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">RetrofitLog--> --> GET http://design.test7.ikongjian.com/monitor</span>
+                <span class="reporter-method-output">RetrofitLog--> --> END GET</span>
+                <span class="reporter-method-output">RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (212ms)</span>
+                <span class="reporter-method-output">RetrofitLog--> Server: nginx/1.16.1</span>
+                <span class="reporter-method-output">RetrofitLog--> Date: Tue, 24 Nov 2020 04:04:47 GMT</span>
+                <span class="reporter-method-output">RetrofitLog--> Content-Type: application/json</span>
+                <span class="reporter-method-output">RetrofitLog--> Transfer-Encoding: chunked</span>
+                <span class="reporter-method-output">RetrofitLog--> Connection: keep-alive</span>
+                <span class="reporter-method-output">RetrofitLog--> Set-Cookie: jsid=57f3593d-7704-465b-b836-e558eb15dc33; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Thu, 24-Dec-2020 04:04:47 GMT; HttpOnly</span>
+                <span class="reporter-method-output">RetrofitLog--> </span>
+                <span class="reporter-method-output">RetrofitLog--> {"code":0,"msg":"系统正常","result":null}</span>
+                <span class="reporter-method-output">RetrofitLog--> <-- END HTTP (45-byte body)</span>
+                <span class="reporter-method-output">接口返回的Json对象校验成功！</span>
+                <span class="reporter-method-output">{"code":0,"msg":"系统正常"}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mazy.interfTest.SearchTagsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">testcase1</span>
+                <span class="method-start">464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase2</span>
+                <span class="method-start">1302 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase3</span>
+                <span class="method-start">1329 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
