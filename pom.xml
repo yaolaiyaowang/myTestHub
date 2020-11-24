@@ -13,6 +13,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <xmlFileName></xmlFileName>
         <username>admin</username>
+        <testName>根源名称</testName>
+        <testDescription>根源描述</testDescription>
     </properties>
 
     <dependencies>
@@ -29,6 +31,8 @@
             <artifactId>protobuf-java-format</artifactId>
             <version>1.4</version>
         </dependency>
+        
+        
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
         <dependency>

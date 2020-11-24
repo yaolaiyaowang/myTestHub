@@ -6,15 +6,22 @@ import com.mazy.response.domain.IKongJianVO;
 import com.mazy.response.domain.MovieResponseVO;
 import com.mazy.tools.JsonSchemaUtils;
 
+import okhttp3.MediaType;
+import okhttp3.MultipartBody;
+import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import retrofit2.Response;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
 import java.util.Properties;
 
 /**
@@ -26,6 +33,7 @@ public class SearchTagsTest {
     private static Properties properties;
     private static HttpSearch implSearch;
     private static HttpSearch ikongjianplSearch;
+    private static HttpSearch reportSearch;
     private static String SCHEMA_PATH = "parameters/search/schema/SearchTagsMovie.json";
     
     private static String SCHEMA_PATH_IKONGJIAN = "parameters/search/schema/IkongjianResp.json";
@@ -79,5 +87,35 @@ public class SearchTagsTest {
     	Assert.assertNotNull(IBody, "response.body()");
         JsonSchemaUtils.assertResponseJsonSchema(SCHEMA_PATH_IKONGJIAN, JSONObject.toJSONString(IBody));
         Assert.assertNotNull(IBody.getMsg(), "msg");
+    }
+    
+    @AfterSuite
+    public void aftersuit() throws IOException{
+    	InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("env.properties");
+        Properties properties = new Properties();
+        properties.load(inputStream);
+        String host = properties.getProperty("reportHost");
+        reportSearch = new HttpSearch(host);
+        
+        
+    	String username = properties.getProperty("username");
+    	String testName = properties.getProperty("testName");
+    	String testDescription = properties.getProperty("testDescription");
+    	System.out.println(testDescription+"加密前");
+    	testName = URLEncoder.encode(testName, "utf-8");   		
+   		testDescription = URLEncoder.encode(testDescription, "utf-8");
+   		System.out.println(testDescription+"加密后");
+    	
+    	
+    	String filepath = System.getProperty("user.dir");
+    	File reprotFile = new File(filepath+"/test-output/report.html");
+    	
+    	RequestBody body = RequestBody.create(MediaType.parse("multipart/form-data"), reprotFile);
+    	RequestBody usernamebody = RequestBody.create(MediaType.parse("multipart/form-data"), username);
+    	RequestBody	testNamebody = RequestBody.create(MediaType.parse("multipart/form-data"), testName);
+    	RequestBody testDescriptionbody = RequestBody.create(MediaType.parse("multipart/form-data"), testDescription);
+    	MultipartBody.Part file = MultipartBody.Part.createFormData("uploadFile", reprotFile.getName(), body);
+    	reportSearch.UploadMyReport(usernamebody, testNamebody, testDescriptionbody, file);
+    	
     }
 }
