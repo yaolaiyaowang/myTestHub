@@ -83,7 +83,6 @@ public class SearchTagsTest {
     public void testcase3() throws IOException{
     	Response<IKongJianVO> response = ikongjianplSearch.getStues();
     	IKongJianVO IBody = response.body();
-    	System.out.println(response.body().getCode());
     	Assert.assertNotNull(IBody, "response.body()");
         JsonSchemaUtils.assertResponseJsonSchema(SCHEMA_PATH_IKONGJIAN, JSONObject.toJSONString(IBody));
         Assert.assertNotNull(IBody.getMsg(), "msg");
@@ -99,8 +98,8 @@ public class SearchTagsTest {
         
         
     	String username = properties.getProperty("username");
-    	String testName = properties.getProperty("testName");
-    	String testDescription = properties.getProperty("testDescription");
+    	String testName = new String(properties.getProperty("testName").getBytes("ISO-8859-1"),"UTF-8");
+    	String testDescription = new String(properties.getProperty("testDescription").getBytes("ISO-8859-1"),"UTF-8");
     	System.out.println(testDescription+"加密前");
     	testName = URLEncoder.encode(testName, "utf-8");   		
    		testDescription = URLEncoder.encode(testDescription, "utf-8");

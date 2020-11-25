@@ -8,10 +8,10 @@
       <![CDATA[RetrofitLog--> --> END GET]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (214ms)]]>
+      <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (177ms)]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Date: Tue, 24 Nov 2020 10:22:24 GMT]]>
+      <![CDATA[RetrofitLog--> Date: Wed, 25 Nov 2020 07:28:53 GMT]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
@@ -41,10 +41,10 @@
       <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Set-Cookie: bid=0IYurkEYMAM; Expires=Wed, 24-Nov-21 10:22:24 GMT; Domain=.douban.com; Path=/]]>
+      <![CDATA[RetrofitLog--> Set-Cookie: bid=lkCOp-Mb5OY; Expires=Thu, 25-Nov-21 07:28:53 GMT; Domain=.douban.com; Path=/]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: 0IYurkEYMAM]]>
+      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: lkCOp-Mb5OY]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
@@ -80,10 +80,10 @@
       <![CDATA[RetrofitLog--> --> END GET]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (37ms)]]>
+      <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (73ms)]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Date: Tue, 24 Nov 2020 10:22:24 GMT]]>
+      <![CDATA[RetrofitLog--> Date: Wed, 25 Nov 2020 07:28:54 GMT]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
@@ -113,10 +113,10 @@
       <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Set-Cookie: bid=7-oqjHZilqw; Expires=Wed, 24-Nov-21 10:22:24 GMT; Domain=.douban.com; Path=/]]>
+      <![CDATA[RetrofitLog--> Set-Cookie: bid=3o6mQmqPj0s; Expires=Thu, 25-Nov-21 07:28:54 GMT; Domain=.douban.com; Path=/]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: 7-oqjHZilqw]]>
+      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: 3o6mQmqPj0s]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
@@ -152,13 +152,13 @@
       <![CDATA[RetrofitLog--> --> END GET]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (102ms)]]>
+      <![CDATA[RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (14ms)]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> Server: nginx/1.16.1]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Date: Tue, 24 Nov 2020 10:22:24 GMT]]>
+      <![CDATA[RetrofitLog--> Date: Wed, 25 Nov 2020 07:28:54 GMT]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> Content-Type: application/json]]>
@@ -170,7 +170,7 @@
       <![CDATA[RetrofitLog--> Connection: keep-alive]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Set-Cookie: jsid=efd518df-4a71-493f-872c-78ced7e63235; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Thu, 24-Dec-2020 10:22:24 GMT; HttpOnly]]>
+      <![CDATA[RetrofitLog--> Set-Cookie: jsid=96a2c471-aa87-453c-a612-8eb0cd72de17; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Fri, 25-Dec-2020 07:28:54 GMT; HttpOnly]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> ]]>
@@ -188,40 +188,40 @@
       <![CDATA[{"code":0,"msg":"系统正常"}]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> --> POST http://127.0.0.1:8090/interfaceTest/uploadMyInterfaceReport]]>
+      <![CDATA[RetrofitLog--> --> POST http://192.168.100.194:8090/interfaceTest/uploadMyInterfaceReport]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Content-Type: multipart/form-data; boundary=4616c7aa-9c25-4fd4-baf3-1419c8c1236d]]>
+      <![CDATA[RetrofitLog--> Content-Type: multipart/form-data; boundary=4769260a-aa15-45e2-a5d1-abc6bf3e9c76]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Content-Length: 35303]]>
+      <![CDATA[RetrofitLog--> Content-Length: 35231]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> ]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> --4616c7aa-9c25-4fd4-baf3-1419c8c1236d
+      <![CDATA[RetrofitLog--> --4769260a-aa15-45e2-a5d1-abc6bf3e9c76
 Content-Disposition: form-data; name="username"
 Content-Transfer-Encoding: binary
 Content-Type: multipart/form-data; charset=utf-8
 Content-Length: 5
 
 admin
---4616c7aa-9c25-4fd4-baf3-1419c8c1236d
+--4769260a-aa15-45e2-a5d1-abc6bf3e9c76
 Content-Disposition: form-data; name="testName"
 Content-Transfer-Encoding: binary
 Content-Type: multipart/form-data; charset=utf-8
-Content-Length: 72
+Content-Length: 36
 
-%C3%A6%C2%A0%C2%B9%C3%A6%C2%BA%C2%90%C3%A5%C2%90%C2%8D%C3%A7%C2%A7%C2%B0
---4616c7aa-9c25-4fd4-baf3-1419c8c1236d
+%E6%A0%B9%E6%BA%90%E5%90%8D%E7%A7%B0
+--4769260a-aa15-45e2-a5d1-abc6bf3e9c76
 Content-Disposition: form-data; name="testDescription"
 Content-Transfer-Encoding: binary
 Content-Type: multipart/form-data; charset=utf-8
-Content-Length: 72
+Content-Length: 36
 
-%C3%A6%C2%A0%C2%B9%C3%A6%C2%BA%C2%90%C3%A6%C2%8F%C2%8F%C3%A8%C2%BF%C2%B0
---4616c7aa-9c25-4fd4-baf3-1419c8c1236d
+%E6%A0%B9%E6%BA%90%E6%8F%8F%E8%BF%B0
+--4769260a-aa15-45e2-a5d1-abc6bf3e9c76
 Content-Disposition: form-data; name="uploadFile"; filename="report.html"
 Content-Type: multipart/form-data
 Content-Length: 34335
@@ -279,7 +279,7 @@ Content-Length: 34335
 <ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 <li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>2020-11-24 18:16:55</span>
+                    <span class='label suite-start-time blue darken-3'>2020-11-25 15:23:46</span>
 </a>
 </li>
 <li>
@@ -391,22 +391,22 @@ Content-Length: 34335
 <li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
 <div class='test-heading'>
 <span class='test-name'>调试-搜索分类-测试集合</span>
-<span class='test-time'>2020-11-24 18:16:55</span>
+<span class='test-time'>2020-11-25 15:23:46</span>
 <span class='test-status right pass'>pass</span>
 </div>
 <div class='test-content hide'>
 <div class='test-time-info'>
-<span class='label start-time'>2020-11-24 18:16:55</span>
-<span class='label end-time'>2020-11-24 18:16:56</span>
-<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+232ms</span>
+<span class='label start-time'>2020-11-25 15:23:46</span>
+<span class='label end-time'>2020-11-25 15:23:47</span>
+<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+229ms</span>
 </div>
 <ul class='collapsible node-list' data-collapsible='accordion'>
 
 <li class='node level-1  pass' status='pass' test-id='2'>
 <div class='collapsible-header'>
 <h5 class='node-name'>搜索分类 接口</h5>
-<span class="node-time label grey lighten-1 white-text">2020-11-24 18:16:56</span>
-<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+792ms</span>
+<span class="node-time label grey lighten-1 white-text">2020-11-25 15:23:47</span>
+<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+806ms</span>
 <span class='test-status right pass'>pass</span>
 </div>
 <div class='collapsible-body'>
@@ -422,7 +422,7 @@ Content-Length: 34335
 <tbody>
 <tr class='log' status='pass'>
 <td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>Passed</td>
 </tr>
 </tbody>
@@ -433,8 +433,8 @@ Content-Length: 34335
 <li class='node level-2 leaf pass' status='pass' test-id='3'>
 <div class='collapsible-header'>
 <h5 class='node-name'>testcase1</h5>
-<span class="node-time label grey lighten-1 white-text">2020-11-24 18:16:56</span>
-<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+708ms</span>
+<span class="node-time label grey lighten-1 white-text">2020-11-25 15:23:47</span>
+<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+709ms</span>
 <span class='test-status right pass'>pass</span>
 <div class='node-desc'>电影首页。类别:type=movie source=index</div>
 </div>
@@ -451,127 +451,127 @@ Content-Length: 34335
 <tbody>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=movie&source=index</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> --> END GET</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (194ms)</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (208ms)</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> Date: Tue, 24 Nov 2020 10:16:55 GMT</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> Date: Wed, 25 Nov 2020 07:23:46 GMT</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Content-Type: application/json; charset=utf-8</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Transfer-Encoding: chunked</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Connection: keep-alive</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Keep-Alive: timeout=30</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-Xss-Protection: 1; mode=block</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-Douban-Mobileapp: 0</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Pragma: no-cache</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Cache-Control: must-revalidate, no-cache, private</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> Set-Cookie: bid=1H9QeZWsQW4; Expires=Wed, 24-Nov-21 10:16:55 GMT; Domain=.douban.com; Path=/</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> Set-Cookie: bid=ye6G3X42GKU; Expires=Thu, 25-Nov-21 07:23:46 GMT; Domain=.douban.com; Path=/</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> X-DOUBAN-NEWBID: 1H9QeZWsQW4</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> X-DOUBAN-NEWBID: ye6G3X42GKU</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-DAE-App: movie</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-DAE-Instance: default</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Server: dae</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-Content-Type-Options: nosniff</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--></td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> {"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> <-- END HTTP (94-byte body)</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>接口返回的Json对象校验成功！</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>{"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}</td>
 </tr>
 <tr class='log' status='pass'>
 <td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>Passed</td>
 </tr>
 </tbody>
@@ -582,8 +582,8 @@ Content-Length: 34335
 <li class='node level-2 leaf pass' status='pass' test-id='4'>
 <div class='collapsible-header'>
 <h5 class='node-name'>testcase2</h5>
-<span class="node-time label grey lighten-1 white-text">2020-11-24 18:16:56</span>
-<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+32ms</span>
+<span class="node-time label grey lighten-1 white-text">2020-11-25 15:23:47</span>
+<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+25ms</span>
 <span class='test-status right pass'>pass</span>
 <div class='node-desc'>Tv首页。类别:type=tv source=index</div>
 </div>
@@ -600,127 +600,127 @@ Content-Length: 34335
 <tbody>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=tv&source=index</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> --> END GET</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (25ms)</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (19ms)</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> Date: Tue, 24 Nov 2020 10:16:56 GMT</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> Date: Wed, 25 Nov 2020 07:23:47 GMT</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Content-Type: application/json; charset=utf-8</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Transfer-Encoding: chunked</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Connection: keep-alive</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Keep-Alive: timeout=30</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-Xss-Protection: 1; mode=block</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-Douban-Mobileapp: 0</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Pragma: no-cache</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Cache-Control: must-revalidate, no-cache, private</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> Set-Cookie: bid=xnoW4yWjwbI; Expires=Wed, 24-Nov-21 10:16:56 GMT; Domain=.douban.com; Path=/</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> Set-Cookie: bid=rdG_mwJppP0; Expires=Thu, 25-Nov-21 07:23:47 GMT; Domain=.douban.com; Path=/</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> X-DOUBAN-NEWBID: xnoW4yWjwbI</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> X-DOUBAN-NEWBID: rdG_mwJppP0</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-DAE-App: movie</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-DAE-Instance: default</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Server: dae</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-Content-Type-Options: nosniff</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--></td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> {"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> <-- END HTTP (94-byte body)</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>接口返回的Json对象校验成功！</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>{"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}</td>
 </tr>
 <tr class='log' status='pass'>
 <td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>Passed</td>
 </tr>
 </tbody>
@@ -731,8 +731,8 @@ Content-Length: 34335
 <li class='node level-2 leaf pass' status='pass' test-id='5'>
 <div class='collapsible-header'>
 <h5 class='node-name'>testcase3</h5>
-<span class="node-time label grey lighten-1 white-text">2020-11-24 18:16:56</span>
-<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+35ms</span>
+<span class="node-time label grey lighten-1 white-text">2020-11-25 15:23:47</span>
+<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+53ms</span>
 <span class='test-status right pass'>pass</span>
 <div class='node-desc'>测试test7环境是否可用</div>
 </div>
@@ -749,77 +749,77 @@ Content-Length: 34335
 <tbody>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> --> GET http://design.test7.ikongjian.com/monitor</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> --> END GET</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (26ms)</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (44ms)</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Server: nginx/1.16.1</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> Date: Tue, 24 Nov 2020 10:16:56 GMT</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> Date: Wed, 25 Nov 2020 07:23:47 GMT</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Content-Type: application/json</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Transfer-Encoding: chunked</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Connection: keep-alive</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> Set-Cookie: jsid=35ce632a-bf3f-44aa-b21a-2cf4947220e1; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Thu, 24-Dec-2020 10:16:56 GMT; HttpOnly</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> Set-Cookie: jsid=e2bc6f9e-4d79-436d-936a-ef99d18d586a; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Fri, 25-Dec-2020 07:23:47 GMT; HttpOnly</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--></td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> {"code":0,"msg":"系统正常","result":null}</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> <-- END HTTP (45-byte body)</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>接口返回的Json对象校验成功！</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>{"code":0,"msg":"系统正常"}</td>
 </tr>
 <tr class='log' status='pass'>
 <td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>Passed</td>
 </tr>
 </tbody>
@@ -879,19 +879,19 @@ Steps
 <div class='col s2'>
 <div class='card-panel r'>
 Start
-<div class='panel-lead'>2020-11-24 18:16:55</div>
+<div class='panel-lead'>2020-11-25 15:23:46</div>
 </div>
 </div>
 <div class='col s2'>
 <div class='card-panel r'>
  End
- <div class='panel-lead'>2020-11-24 18:16:56</div>
+ <div class='panel-lead'>2020-11-25 15:23:47</div>
 </div>
 </div>
 <div class='col s2'>
 <div class='card-panel r'>
 Time Taken
-<div class='panel-lead'>0h 0m 1s+360ms</div>
+<div class='panel-lead'>0h 0m 1s+368ms</div>
 </div>
 </div>
 <div class='col s4'>
@@ -968,14 +968,14 @@ exceptionsGrandChild: 0,
 
 </html>
 
---4616c7aa-9c25-4fd4-baf3-1419c8c1236d--
+--4769260a-aa15-45e2-a5d1-abc6bf3e9c76--
 ]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> --> END POST (35303-byte body)]]>
+      <![CDATA[RetrofitLog--> --> END POST (35231-byte body)]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> <-- 200 http://127.0.0.1:8090/interfaceTest/uploadMyInterfaceReport (31ms)]]>
+      <![CDATA[RetrofitLog--> <-- 200 http://192.168.100.194:8090/interfaceTest/uploadMyInterfaceReport (31ms)]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> Content-Type: text/plain;charset=UTF-8]]>
@@ -984,7 +984,7 @@ exceptionsGrandChild: 0,
       <![CDATA[RetrofitLog--> Content-Length: 41]]>
     </line>
     <line>
-      <![CDATA[RetrofitLog--> Date: Tue, 24 Nov 2020 10:22:25 GMT]]>
+      <![CDATA[RetrofitLog--> Date: Wed, 25 Nov 2020 07:28:54 GMT]]>
     </line>
     <line>
       <![CDATA[RetrofitLog--> ]]>
@@ -996,20 +996,20 @@ exceptionsGrandChild: 0,
       <![CDATA[RetrofitLog--> <-- END HTTP (41-byte body)]]>
     </line>
   </reporter-output>
-  <suite name="接口测试集合" duration-ms="0" started-at="2020-11-24T10:22:26Z" finished-at="2020-11-24T10:22:26Z">
+  <suite name="接口测试集合" duration-ms="0" started-at="2020-11-25T07:28:54Z" finished-at="2020-11-25T07:28:54Z">
     <groups>
     </groups>
   </suite> <!-- 接口测试集合 -->
-  <suite name="调试-搜索分类-测试集合" duration-ms="882" started-at="2020-11-24T10:22:24Z" finished-at="2020-11-24T10:22:25Z">
+  <suite name="调试-搜索分类-测试集合" duration-ms="784" started-at="2020-11-25T07:28:53Z" finished-at="2020-11-25T07:28:54Z">
     <groups>
     </groups>
-    <test name="搜索分类 接口" duration-ms="882" started-at="2020-11-24T10:22:24Z" finished-at="2020-11-24T10:22:25Z">
+    <test name="搜索分类 接口" duration-ms="784" started-at="2020-11-25T07:28:53Z" finished-at="2020-11-25T07:28:54Z">
       <class name="com.mazy.interfTest.SearchTagsTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@38364841]" name="beforeSuite" is-config="true" duration-ms="415" started-at="2020-11-24T10:22:24Z" finished-at="2020-11-24T10:22:24Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@38364841]" name="beforeSuite" is-config="true" duration-ms="413" started-at="2020-11-25T07:28:53Z" finished-at="2020-11-25T07:28:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="testcase1()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@38364841]" name="testcase1" duration-ms="700" started-at="2020-11-24T10:22:24Z" description="电影首页。类别:type=movie source=index" finished-at="2020-11-24T10:22:25Z">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@38364841]" name="testcase1" duration-ms="655" started-at="2020-11-25T07:28:53Z" description="电影首页。类别:type=movie source=index" finished-at="2020-11-25T07:28:54Z">
           <reporter-output>
             <line>
               <![CDATA[RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=movie&source=index]]>
@@ -1018,10 +1018,10 @@ exceptionsGrandChild: 0,
               <![CDATA[RetrofitLog--> --> END GET]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (214ms)]]>
+              <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (177ms)]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Date: Tue, 24 Nov 2020 10:22:24 GMT]]>
+              <![CDATA[RetrofitLog--> Date: Wed, 25 Nov 2020 07:28:53 GMT]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
@@ -1051,10 +1051,10 @@ exceptionsGrandChild: 0,
               <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Set-Cookie: bid=0IYurkEYMAM; Expires=Wed, 24-Nov-21 10:22:24 GMT; Domain=.douban.com; Path=/]]>
+              <![CDATA[RetrofitLog--> Set-Cookie: bid=lkCOp-Mb5OY; Expires=Thu, 25-Nov-21 07:28:53 GMT; Domain=.douban.com; Path=/]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: 0IYurkEYMAM]]>
+              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: lkCOp-Mb5OY]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
@@ -1085,7 +1085,7 @@ exceptionsGrandChild: 0,
             </line>
           </reporter-output>
         </test-method> <!-- testcase1 -->
-        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@38364841]" name="testcase2" duration-ms="44" started-at="2020-11-24T10:22:25Z" description="Tv首页。类别:type=tv source=index" finished-at="2020-11-24T10:22:25Z">
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@38364841]" name="testcase2" duration-ms="80" started-at="2020-11-25T07:28:54Z" description="Tv首页。类别:type=tv source=index" finished-at="2020-11-25T07:28:54Z">
           <reporter-output>
             <line>
               <![CDATA[RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=tv&source=index]]>
@@ -1094,10 +1094,10 @@ exceptionsGrandChild: 0,
               <![CDATA[RetrofitLog--> --> END GET]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (37ms)]]>
+              <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (73ms)]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Date: Tue, 24 Nov 2020 10:22:24 GMT]]>
+              <![CDATA[RetrofitLog--> Date: Wed, 25 Nov 2020 07:28:54 GMT]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
@@ -1127,10 +1127,10 @@ exceptionsGrandChild: 0,
               <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Set-Cookie: bid=7-oqjHZilqw; Expires=Wed, 24-Nov-21 10:22:24 GMT; Domain=.douban.com; Path=/]]>
+              <![CDATA[RetrofitLog--> Set-Cookie: bid=3o6mQmqPj0s; Expires=Thu, 25-Nov-21 07:28:54 GMT; Domain=.douban.com; Path=/]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: 7-oqjHZilqw]]>
+              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: 3o6mQmqPj0s]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
@@ -1161,7 +1161,7 @@ exceptionsGrandChild: 0,
             </line>
           </reporter-output>
         </test-method> <!-- testcase2 -->
-        <test-method status="PASS" signature="testcase3()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@38364841]" name="testcase3" duration-ms="110" started-at="2020-11-24T10:22:25Z" description="测试test7环境是否可用" finished-at="2020-11-24T10:22:25Z">
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@38364841]" name="testcase3" duration-ms="22" started-at="2020-11-25T07:28:54Z" description="测试test7环境是否可用" finished-at="2020-11-25T07:28:54Z">
           <reporter-output>
             <line>
               <![CDATA[RetrofitLog--> --> GET http://design.test7.ikongjian.com/monitor]]>
@@ -1170,13 +1170,13 @@ exceptionsGrandChild: 0,
               <![CDATA[RetrofitLog--> --> END GET]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (102ms)]]>
+              <![CDATA[RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (14ms)]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> Server: nginx/1.16.1]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Date: Tue, 24 Nov 2020 10:22:24 GMT]]>
+              <![CDATA[RetrofitLog--> Date: Wed, 25 Nov 2020 07:28:54 GMT]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> Content-Type: application/json]]>
@@ -1188,7 +1188,7 @@ exceptionsGrandChild: 0,
               <![CDATA[RetrofitLog--> Connection: keep-alive]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Set-Cookie: jsid=efd518df-4a71-493f-872c-78ced7e63235; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Thu, 24-Dec-2020 10:22:24 GMT; HttpOnly]]>
+              <![CDATA[RetrofitLog--> Set-Cookie: jsid=96a2c471-aa87-453c-a612-8eb0cd72de17; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Fri, 25-Dec-2020 07:28:54 GMT; HttpOnly]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> ]]>
@@ -1207,43 +1207,43 @@ exceptionsGrandChild: 0,
             </line>
           </reporter-output>
         </test-method> <!-- testcase3 -->
-        <test-method status="PASS" signature="aftersuit()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@38364841]" name="aftersuit" is-config="true" duration-ms="47" started-at="2020-11-24T10:22:25Z" finished-at="2020-11-24T10:22:25Z">
+        <test-method status="PASS" signature="aftersuit()[pri:0, instance:com.mazy.interfTest.SearchTagsTest@38364841]" name="aftersuit" is-config="true" duration-ms="48" started-at="2020-11-25T07:28:54Z" finished-at="2020-11-25T07:28:54Z">
           <reporter-output>
             <line>
-              <![CDATA[RetrofitLog--> --> POST http://127.0.0.1:8090/interfaceTest/uploadMyInterfaceReport]]>
+              <![CDATA[RetrofitLog--> --> POST http://192.168.100.194:8090/interfaceTest/uploadMyInterfaceReport]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Content-Type: multipart/form-data; boundary=4616c7aa-9c25-4fd4-baf3-1419c8c1236d]]>
+              <![CDATA[RetrofitLog--> Content-Type: multipart/form-data; boundary=4769260a-aa15-45e2-a5d1-abc6bf3e9c76]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Content-Length: 35303]]>
+              <![CDATA[RetrofitLog--> Content-Length: 35231]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> ]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> --4616c7aa-9c25-4fd4-baf3-1419c8c1236d
+              <![CDATA[RetrofitLog--> --4769260a-aa15-45e2-a5d1-abc6bf3e9c76
 Content-Disposition: form-data; name="username"
 Content-Transfer-Encoding: binary
 Content-Type: multipart/form-data; charset=utf-8
 Content-Length: 5
 
 admin
---4616c7aa-9c25-4fd4-baf3-1419c8c1236d
+--4769260a-aa15-45e2-a5d1-abc6bf3e9c76
 Content-Disposition: form-data; name="testName"
 Content-Transfer-Encoding: binary
 Content-Type: multipart/form-data; charset=utf-8
-Content-Length: 72
+Content-Length: 36
 
-%C3%A6%C2%A0%C2%B9%C3%A6%C2%BA%C2%90%C3%A5%C2%90%C2%8D%C3%A7%C2%A7%C2%B0
---4616c7aa-9c25-4fd4-baf3-1419c8c1236d
+%E6%A0%B9%E6%BA%90%E5%90%8D%E7%A7%B0
+--4769260a-aa15-45e2-a5d1-abc6bf3e9c76
 Content-Disposition: form-data; name="testDescription"
 Content-Transfer-Encoding: binary
 Content-Type: multipart/form-data; charset=utf-8
-Content-Length: 72
+Content-Length: 36
 
-%C3%A6%C2%A0%C2%B9%C3%A6%C2%BA%C2%90%C3%A6%C2%8F%C2%8F%C3%A8%C2%BF%C2%B0
---4616c7aa-9c25-4fd4-baf3-1419c8c1236d
+%E6%A0%B9%E6%BA%90%E6%8F%8F%E8%BF%B0
+--4769260a-aa15-45e2-a5d1-abc6bf3e9c76
 Content-Disposition: form-data; name="uploadFile"; filename="report.html"
 Content-Type: multipart/form-data
 Content-Length: 34335
@@ -1301,7 +1301,7 @@ Content-Length: 34335
 <ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 <li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>2020-11-24 18:16:55</span>
+                    <span class='label suite-start-time blue darken-3'>2020-11-25 15:23:46</span>
 </a>
 </li>
 <li>
@@ -1413,22 +1413,22 @@ Content-Length: 34335
 <li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
 <div class='test-heading'>
 <span class='test-name'>调试-搜索分类-测试集合</span>
-<span class='test-time'>2020-11-24 18:16:55</span>
+<span class='test-time'>2020-11-25 15:23:46</span>
 <span class='test-status right pass'>pass</span>
 </div>
 <div class='test-content hide'>
 <div class='test-time-info'>
-<span class='label start-time'>2020-11-24 18:16:55</span>
-<span class='label end-time'>2020-11-24 18:16:56</span>
-<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+232ms</span>
+<span class='label start-time'>2020-11-25 15:23:46</span>
+<span class='label end-time'>2020-11-25 15:23:47</span>
+<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+229ms</span>
 </div>
 <ul class='collapsible node-list' data-collapsible='accordion'>
 
 <li class='node level-1  pass' status='pass' test-id='2'>
 <div class='collapsible-header'>
 <h5 class='node-name'>搜索分类 接口</h5>
-<span class="node-time label grey lighten-1 white-text">2020-11-24 18:16:56</span>
-<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+792ms</span>
+<span class="node-time label grey lighten-1 white-text">2020-11-25 15:23:47</span>
+<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+806ms</span>
 <span class='test-status right pass'>pass</span>
 </div>
 <div class='collapsible-body'>
@@ -1444,7 +1444,7 @@ Content-Length: 34335
 <tbody>
 <tr class='log' status='pass'>
 <td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>Passed</td>
 </tr>
 </tbody>
@@ -1455,8 +1455,8 @@ Content-Length: 34335
 <li class='node level-2 leaf pass' status='pass' test-id='3'>
 <div class='collapsible-header'>
 <h5 class='node-name'>testcase1</h5>
-<span class="node-time label grey lighten-1 white-text">2020-11-24 18:16:56</span>
-<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+708ms</span>
+<span class="node-time label grey lighten-1 white-text">2020-11-25 15:23:47</span>
+<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+709ms</span>
 <span class='test-status right pass'>pass</span>
 <div class='node-desc'>电影首页。类别:type=movie source=index</div>
 </div>
@@ -1473,127 +1473,127 @@ Content-Length: 34335
 <tbody>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=movie&source=index</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> --> END GET</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (194ms)</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (208ms)</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> Date: Tue, 24 Nov 2020 10:16:55 GMT</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> Date: Wed, 25 Nov 2020 07:23:46 GMT</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Content-Type: application/json; charset=utf-8</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Transfer-Encoding: chunked</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Connection: keep-alive</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Keep-Alive: timeout=30</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-Xss-Protection: 1; mode=block</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-Douban-Mobileapp: 0</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Pragma: no-cache</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Cache-Control: must-revalidate, no-cache, private</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> Set-Cookie: bid=1H9QeZWsQW4; Expires=Wed, 24-Nov-21 10:16:55 GMT; Domain=.douban.com; Path=/</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> Set-Cookie: bid=ye6G3X42GKU; Expires=Thu, 25-Nov-21 07:23:46 GMT; Domain=.douban.com; Path=/</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> X-DOUBAN-NEWBID: 1H9QeZWsQW4</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> X-DOUBAN-NEWBID: ye6G3X42GKU</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-DAE-App: movie</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-DAE-Instance: default</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Server: dae</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-Content-Type-Options: nosniff</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--></td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> {"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> <-- END HTTP (94-byte body)</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>接口返回的Json对象校验成功！</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>{"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}</td>
 </tr>
 <tr class='log' status='pass'>
 <td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>Passed</td>
 </tr>
 </tbody>
@@ -1604,8 +1604,8 @@ Content-Length: 34335
 <li class='node level-2 leaf pass' status='pass' test-id='4'>
 <div class='collapsible-header'>
 <h5 class='node-name'>testcase2</h5>
-<span class="node-time label grey lighten-1 white-text">2020-11-24 18:16:56</span>
-<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+32ms</span>
+<span class="node-time label grey lighten-1 white-text">2020-11-25 15:23:47</span>
+<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+25ms</span>
 <span class='test-status right pass'>pass</span>
 <div class='node-desc'>Tv首页。类别:type=tv source=index</div>
 </div>
@@ -1622,127 +1622,127 @@ Content-Length: 34335
 <tbody>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=tv&source=index</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> --> END GET</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (25ms)</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (19ms)</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> Date: Tue, 24 Nov 2020 10:16:56 GMT</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> Date: Wed, 25 Nov 2020 07:23:47 GMT</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Content-Type: application/json; charset=utf-8</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Transfer-Encoding: chunked</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Connection: keep-alive</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Keep-Alive: timeout=30</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-Xss-Protection: 1; mode=block</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-Douban-Mobileapp: 0</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Pragma: no-cache</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Cache-Control: must-revalidate, no-cache, private</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> Set-Cookie: bid=xnoW4yWjwbI; Expires=Wed, 24-Nov-21 10:16:56 GMT; Domain=.douban.com; Path=/</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> Set-Cookie: bid=rdG_mwJppP0; Expires=Thu, 25-Nov-21 07:23:47 GMT; Domain=.douban.com; Path=/</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> X-DOUBAN-NEWBID: xnoW4yWjwbI</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> X-DOUBAN-NEWBID: rdG_mwJppP0</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-DAE-App: movie</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-DAE-Instance: default</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Server: dae</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> X-Content-Type-Options: nosniff</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--></td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> {"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> <-- END HTTP (94-byte body)</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>接口返回的Json对象校验成功！</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>{"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}</td>
 </tr>
 <tr class='log' status='pass'>
 <td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>Passed</td>
 </tr>
 </tbody>
@@ -1753,8 +1753,8 @@ Content-Length: 34335
 <li class='node level-2 leaf pass' status='pass' test-id='5'>
 <div class='collapsible-header'>
 <h5 class='node-name'>testcase3</h5>
-<span class="node-time label grey lighten-1 white-text">2020-11-24 18:16:56</span>
-<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+35ms</span>
+<span class="node-time label grey lighten-1 white-text">2020-11-25 15:23:47</span>
+<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+53ms</span>
 <span class='test-status right pass'>pass</span>
 <div class='node-desc'>测试test7环境是否可用</div>
 </div>
@@ -1771,77 +1771,77 @@ Content-Length: 34335
 <tbody>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> --> GET http://design.test7.ikongjian.com/monitor</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> --> END GET</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (26ms)</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> <-- 200 http://design.test7.ikongjian.com/monitor (44ms)</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Server: nginx/1.16.1</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> Date: Tue, 24 Nov 2020 10:16:56 GMT</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> Date: Wed, 25 Nov 2020 07:23:47 GMT</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Content-Type: application/json</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Transfer-Encoding: chunked</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> Connection: keep-alive</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
-<td class='step-details'>RetrofitLog--> Set-Cookie: jsid=35ce632a-bf3f-44aa-b21a-2cf4947220e1; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Thu, 24-Dec-2020 10:16:56 GMT; HttpOnly</td>
+<td class='timestamp'>3:23:47 PM</td>
+<td class='step-details'>RetrofitLog--> Set-Cookie: jsid=e2bc6f9e-4d79-436d-936a-ef99d18d586a; Domain=.test7.ikongjian.com; Path=/; Max-Age=2592000; Expires=Fri, 25-Dec-2020 07:23:47 GMT; HttpOnly</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--></td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> {"code":0,"msg":"系统正常","result":null}</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>RetrofitLog--> <-- END HTTP (45-byte body)</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>接口返回的Json对象校验成功！</td>
 </tr>
 <tr class='log' status='info'>
 <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>{"code":0,"msg":"系统正常"}</td>
 </tr>
 <tr class='log' status='pass'>
 <td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-<td class='timestamp'>6:16:56 PM</td>
+<td class='timestamp'>3:23:47 PM</td>
 <td class='step-details'>Passed</td>
 </tr>
 </tbody>
@@ -1901,19 +1901,19 @@ Steps
 <div class='col s2'>
 <div class='card-panel r'>
 Start
-<div class='panel-lead'>2020-11-24 18:16:55</div>
+<div class='panel-lead'>2020-11-25 15:23:46</div>
 </div>
 </div>
 <div class='col s2'>
 <div class='card-panel r'>
  End
- <div class='panel-lead'>2020-11-24 18:16:56</div>
+ <div class='panel-lead'>2020-11-25 15:23:47</div>
 </div>
 </div>
 <div class='col s2'>
 <div class='card-panel r'>
 Time Taken
-<div class='panel-lead'>0h 0m 1s+360ms</div>
+<div class='panel-lead'>0h 0m 1s+368ms</div>
 </div>
 </div>
 <div class='col s4'>
@@ -1990,14 +1990,14 @@ exceptionsGrandChild: 0,
 
 </html>
 
---4616c7aa-9c25-4fd4-baf3-1419c8c1236d--
+--4769260a-aa15-45e2-a5d1-abc6bf3e9c76--
 ]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> --> END POST (35303-byte body)]]>
+              <![CDATA[RetrofitLog--> --> END POST (35231-byte body)]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> <-- 200 http://127.0.0.1:8090/interfaceTest/uploadMyInterfaceReport (31ms)]]>
+              <![CDATA[RetrofitLog--> <-- 200 http://192.168.100.194:8090/interfaceTest/uploadMyInterfaceReport (31ms)]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> Content-Type: text/plain;charset=UTF-8]]>
@@ -2006,7 +2006,7 @@ exceptionsGrandChild: 0,
               <![CDATA[RetrofitLog--> Content-Length: 41]]>
             </line>
             <line>
-              <![CDATA[RetrofitLog--> Date: Tue, 24 Nov 2020 10:22:25 GMT]]>
+              <![CDATA[RetrofitLog--> Date: Wed, 25 Nov 2020 07:28:54 GMT]]>
             </line>
             <line>
               <![CDATA[RetrofitLog--> ]]>
